@@ -1,10 +1,8 @@
-package vn.edu.eiu.StudentMajorManagementSystem.Controller;
+package vn.edu.eiu.StudentMajorManagementSystem.module.major;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import vn.edu.eiu.StudentMajorManagementSystem.Entity.Major;
-import vn.edu.eiu.StudentMajorManagementSystem.service.MajorService;
 
 import java.util.List;
 

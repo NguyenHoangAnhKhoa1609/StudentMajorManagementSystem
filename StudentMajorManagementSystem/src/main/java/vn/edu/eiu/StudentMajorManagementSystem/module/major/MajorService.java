@@ -1,10 +1,8 @@
-package vn.edu.eiu.StudentMajorManagementSystem.service;
+package vn.edu.eiu.StudentMajorManagementSystem.module.major;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import vn.edu.eiu.StudentMajorManagementSystem.Entity.Major;
-import vn.edu.eiu.StudentMajorManagementSystem.repository.MajorRepository;
-import vn.edu.eiu.StudentMajorManagementSystem.repository.StudentRepository; // Nhúng thêm thằng này để check sinh viên
+import vn.edu.eiu.StudentMajorManagementSystem.module.student.StudentRepository; // Nhúng thêm thằng này để check sinh viên
 
 import java.util.List;
 

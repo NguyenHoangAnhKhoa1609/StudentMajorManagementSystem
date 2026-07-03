@@ -1,9 +1,7 @@
-package vn.edu.eiu.StudentMajorManagementSystem.Entity;
+package vn.edu.eiu.StudentMajorManagementSystem.module.major;
 
 import jakarta.persistence.*;
 import lombok.*;
-import java.util.List;
-import com.fasterxml.jackson.annotation.JsonIgnore;
 
 //gọi các thuộc tính
 @Entity

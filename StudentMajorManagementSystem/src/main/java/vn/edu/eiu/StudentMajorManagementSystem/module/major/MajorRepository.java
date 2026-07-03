@@ -1,10 +1,7 @@
-package vn.edu.eiu.StudentMajorManagementSystem.repository;
+package vn.edu.eiu.StudentMajorManagementSystem.module.major;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
-import vn.edu.eiu.StudentMajorManagementSystem.Entity.Major;
-
-
 
 
 @Repository

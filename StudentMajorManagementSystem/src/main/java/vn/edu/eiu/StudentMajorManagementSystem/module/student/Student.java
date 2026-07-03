@@ -1,7 +1,8 @@
-package vn.edu.eiu.StudentMajorManagementSystem.Entity;
+package vn.edu.eiu.StudentMajorManagementSystem.module.student;
 
 import jakarta.persistence.*;
 import lombok.*;
+import vn.edu.eiu.StudentMajorManagementSystem.module.major.Major;
 
 @Entity
 @Table(name = "students")
@@ -28,4 +29,5 @@ public class Student {
     @ManyToOne // tạo khóa ngoại trong db
     @JoinColumn(name = "major_id", nullable = false)
     private Major major;
+    private String avatarUrl;
 }
