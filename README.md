@@ -19,4 +19,4 @@ Lọc danh sách sinh viên theo ID major
 Báo cáo Xuất dữ liệu CSV
 Upload avatar cho User
 
-Phần cấu hình JWT với phân quyền  hơi khó với em, em cũng gặp vài lỗi chặn 403 do lệch pha giữa Token và cấu hình Security,Chỗ nào anh thấy chưa hợp lí và sai sót thì anh nhắn để em cải thiện lại những chỗ đó nha anh
+Phần cấu hình JWT với phân quyền  hơi khó với em, em cũng gặp vài lỗi chặn 403  giữa Token và cấu hình Security,Chỗ nào anh thấy chưa hợp lí và sai sót thì anh nhắn để em cải thiện lại những chỗ đó nha anh
